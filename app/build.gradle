@@ -39,6 +39,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.0'
 
     // Displaying images
-    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.github.bumptech.glide:glide:3.6.1' //Image loading library
+
+    //Adds Firebase analytics functionality
+    compile 'com.google.firebase:firebase-core:9.8.0'
+
+    //Real time database package
+    compile 'com.google.firebase:firebase-database:9.8.0'
 }
+
 apply plugin: 'com.google.gms.google-services'
